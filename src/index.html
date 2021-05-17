@@ -2,13 +2,31 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Tarjeta de crédito válida</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Pago</title>
+    <link rel="stylesheet" href="style.css">
   </head>
-  <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
-    <script src="index.js" type="module"></script>
+  
+  <body>    
+
+  <div class="payment">
+  
+      <h2>Metodo de pago</h2>
+           <div class="form">
+           <label class="label">Nombre:</label>
+           <input type="text" class="nombreTarjeta" placeholder="Nombre de la tarjeta">
+        
+           </div>
+
+      <div class="creditCard">
+        <label class="label">Número de tarjeta:</label>
+        <input type="text" id="first"  class="card" type="password" maxlength="16" placeholder="&#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679;">
+     
+              <div class="btn-pay">
+              <button>Pagar</button>
+              </div> 
+      </div>
+  </div>
+  
+<script src="index.js" type="module"></script>
   </body>
 </html>
