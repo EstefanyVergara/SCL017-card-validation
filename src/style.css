@@ -1,17 +1,127 @@
-*{
-    margin: 10px;
-    padding: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: lawngreen;
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Estilos en página de inicio.*/
+*{  
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: ;
+    flex-wrap: wrap;
   }
 
+li, a{
+    font-family: "Roboto";
+    font-weight: normal;
+    font-size: 25px;
+    color: rgb(253, 253, 253);
+    text-decoration: none;
+  }
+
+header{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 200px;
+  margin: 0px;
+  background-color:#424B54;
+}
+
+.logo{
+  cursor: pointer;
+  margin-right: 40%;
+  width: 135px;
+  height: 100px;
+  
+}
+
+.nav_links {
+  list-style: none;
+}
+
+.nav_links li {
+display: inline-block;
+padding: 25px;
+margin: 20px;
+}
+
+.nav_links li a{
+  transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover{
+  color: rgb(99, 94, 94);
+}
+
+.biglogo{
+  margin: 250px;
+  position:absolute;
+  top: 50px;
+  right: 0px;
+  width: 450px;
+  height: 450px;
+}
+
+.titulo{
+  font-family: "Roboto";
+  font-size: 20px;
+  text-align:center;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
+  position:fixed;
+  padding: 20px;
+  margin: 20px;
+  top:380px;
+  left: 160px; 
+}
+
+.Btn-Products{
+  position: relative;
+  background: #424B54;
+  color:white;
+  display: inline-block;
+  font-size: 1.25em;
+  top: 560px;
+  left: 280px;
+  padding: 20px 0px;
+  font-family: "Roboto";
+  text-align: center;
+  width: 200px;
+  box-shadow: 0px 3px 0px #000000;
+
+  }
+  .Btn-Products:hover{
+  background: rgb(99, 94, 94);
+  }
+
+  .Btn-Products:active{
+    background: rgb(141, 42, 42);
+  }
+
+  /*Estilos en página de productos.*/
+   
+  .fotos{
+    float: left;
+  }
+
+
+
+  .Btns-products{
+
+  }
+body{
+  background:#424B54;
+  background-image: url("../img/fondo.jpg");
+  
+}
+
 .payment{
-    background: #000000;
+  background: #000000;
   max-width: 360px;
   margin: 80px auto;
   height: auto;
   padding: 35px;
 }  
 
-.contenedor h2{
-text-align: center;}
+
+
+}

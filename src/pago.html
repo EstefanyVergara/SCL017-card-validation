@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset="utf-8">
+    <title>Pago</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+
+  <body> 
+  <div class="payment">
+
+
+      <h2>Método de pago</h2>
+      <form action="/action_page.php">
+           <div class="form">
+           <label class="label">Nombre:</label>
+           <input type="text" class="nombreTarjeta" placeholder="John Doe"> 
+
+           </div>
+
+      <div class="cardNumber">
+        <label class="label">Número de tarjeta:</label>
+        <input mode="text" id="cardNumber"  maxlength="16" autocomplete="off" 
+        placeholder="&#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679;"
+        onkeyup="maskify()"
+        onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1"; required>
+        <input type="submit" value="Pagar">
+        </form>
+
+ </div> 
+  </body>
+  <script src="../src/index.js" type="module"></script>
+</html>
