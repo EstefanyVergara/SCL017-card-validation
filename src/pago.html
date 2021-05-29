@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <header> 
+      <img class="logo" src="../img/logoheader.png" alt="logo">
+      <nav>
+         <ul class="nav_links">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="productos.html">PRODUCTOS</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </nav>   
+</header>
 
     <meta charset="utf-8">
     <title>Pago</title>
@@ -8,25 +18,45 @@
   </head>
 
   <body> 
-  <div class="payment">
 
+  <div class="wrapper">
+      <div class="payment">   
 
-      <h2>Método de pago</h2>
-      <form action="/action_page.php">
-           <div class="form">
-           <label class="label">Nombre:</label>
-           <input type="text" class="nombreTarjeta" placeholder="John Doe"> 
+                <h2>Método de pago</h2>
 
-           </div>
+             <div class="form"></div>
+                  <form class="php" action="/action_page.php" method="post">
+                    <div class="card">    
+                        <label class="label">Nombre:</label>
+                        <input type="text" class="input" name="Name" placeholder= " John Doe" >
+                       
+            </div>
 
-      <div class="cardNumber">
-        <label class="label">Número de tarjeta:</label>
-        <input mode="text" id="cardNumber"  maxlength="16" autocomplete="off" 
-        placeholder="&#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679;"
-        onkeyup="maskify()"
-        onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1"; required>
-        <input type="submit" value="Pagar">
+            <div class="cardNumber">
+                      <label class="label">Número de tarjeta:</label>
+                      <input mode="text" id="cardNumber" maxlength="16" name="card" autocomplete="off" 
+                      class="input" placeholder="&#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679;"
+                      onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="1" required>
+                      
+            </div>         
+
+            <div class="exp">
+                     <label class="label">Fecha de exp:</label>
+                     <input type="text" class="input" name="Exp" maxlength="4" placeholder= " 03 / 24">
+                     
+            </div>         
+
+            <div class="cvc">
+                      <label class="label">CVC:</label>
+                      <input type="text" class="input" name="Cvc" maxlength="3" placeholder= "123">
+
+            </div>
+ 
+            <button type="submit" id="btn-pay" name="Pay">PAGAR</button>
         </form>
+        
+      
+      </div>       
 
  </div> 
   </body>

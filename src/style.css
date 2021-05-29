@@ -5,7 +5,7 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: ;
+    font-family: "Roboto";
     flex-wrap: wrap;
   }
 
@@ -45,7 +45,7 @@ margin: 20px;
 }
 
 .nav_links li a{
-  transition: all 0.3s ease 0s;
+transition: all 0.3s ease 0s;
 }
 
 .nav_links li a:hover{
@@ -79,7 +79,7 @@ margin: 20px;
   background: #424B54;
   color:white;
   display: inline-block;
-  font-size: 1.25em;
+  font-size: 1.25em;  
   top: 560px;
   left: 280px;
   padding: 20px 0px;
@@ -98,30 +98,145 @@ margin: 20px;
   }
 
   /*Estilos en página de productos.*/
-   
+
   .fotos{
-    float: left;
+    display: inline;
+    height: 400px;
+    width: 400px;
+    margin-top: 180px;
+    margin-left: 120px;
+
+  }
+  .btn1{
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    background: #424B54;
+    color:white;
+    font-size: 1.25em;
+    font-family: "Roboto";
+    width: 400px;
+    height: 103px;
+    left: 230px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 0px #000000;
+   }
+
+  .btn1:hover{
+    background: rgb(99, 94, 94);
   }
 
+  .btn2{
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    background: #424B54;
+    color:white;
+    font-size: 1.25em;
+    font-family: "Roboto";
+    width: 400px;
+    height: 103px;
+    left: 330px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 0px #000000;
+  }
 
+  .btn2:hover{
+    background: rgb(99, 94, 94);
 
-  .Btns-products{
+  }
+.btn3{
+    text-align:center;
+    display: inline-block;
+    position: relative;
+    background: #424B54;
+    color:white;
+    font-size: 1.25em;
+    font-family: "Roboto";
+    width: 400px;
+    height: 103px;
+    left: 430px;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 3px 0px #000000;
+  }
 
+  .btn3:hover{
+    background: rgb(99, 94, 94);
+    
   }
 body{
   background:#424B54;
   background-image: url("../img/fondo.jpg");
+}
+
+/* Atributos página de pago*/
+.payment{
+  position: absolute;
+  width: 400px;
+  height: 600px;
+  background: #F0F0F0;
+  margin: 80px auto;
+  height: 600px;
+  padding: 35px;
+  padding-top: 30px;
+  border-radius: 5px;
+  position: relative;
+  text-align:justify;
+  
+  
   
 }
-
-.payment{
-  background: #000000;
-  max-width: 360px;
-  margin: 80px auto;
-  height: auto;
-  padding: 35px;
-}  
-
-
-
+.payment h2{
+  text-align: center;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  margin-top: 30px;
+  color: #0d3c61; 
+  font-family:"Roboto";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  color: #424B54; 
 }
+
+.label{
+  display: block;
+  color: #555555;
+  padding: 6px;
+  text-align: justify;
+}
+.input{
+  padding: 13px 2px 13px 25px;
+  width: 100%;
+  text-align: center;
+  border: 2px solid #dddddd;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  word-spacing: 4px;
+  font-size: 16px;
+  color: #424B54;
+}
+#btn-pay{
+  margin-top: 40px;
+  background: #424B54;
+  padding: 12px;
+  text-align: center;
+  color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 330px;
+}
+
+
+
+
+
+
+
+
+
+
