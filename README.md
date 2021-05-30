@@ -35,18 +35,18 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 - **Página de inicio**: En esta página se presenta la Pyme y se explica a grandes rasgos ¿Qué es el Cold Brew?.
 
 
-![Diseño de Página de Incio](\img\pag1.jpg)
+![Diseño de Página de Incio](/img/pag1.jpg)
 
 
 - **Productos**: Aquí se pueden apreciar 3 tipos de productos que ofrece la marca, solamente se puede ver y no interactuar con estos por el momento.
 
 
-![Diseño de página Productos](\img\pag2.jpg)
+![Diseño de página Productos](/img/pag2.jpg)
 
 - **Pago**:  En la página final sólo tendremos la opción de ingresar datos de una tarjeta de crédito, así se realizará el pago del producto seleccionado. 
 
 
-![Diseño de página Productos](\img\pag3.jpg)
+![Diseño de página Productos](/img/pag3.jpg)
 
 
 
@@ -70,12 +70,12 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 <details>
 <summary> Click para ver Mockups </summary>
 
-> ![página 1](\img\prototipo1.jpg)
+> ![página 1](/img/prototipo1.jpg)
  - *Descarté hacer un footer por el tiempo requerido.*  
 
  ***          
 
-> ![página 2-3](\img\prototipo2.jpg)
+> ![página 2-3](/img/prototipo2.jpg)
 - *Decidí utilizar la primera opción de visualización de productos.*  
 
 ***
@@ -95,8 +95,6 @@ Los comentarios que recibí fueron acerca de los colores a utilizar por lo tanto
 
 
 =======
-## Interfaz
 
-![Diseño de Página de Inicio][pag1.jpg]
 
 
