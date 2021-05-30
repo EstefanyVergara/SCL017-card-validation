@@ -41,10 +41,10 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 - **Productos**: Aquí se pueden apreciar 3 tipos de productos que ofrece la marca, solamente se puede ver y no interactuar con estos por el momento.
 
 
-
 ![Diseño de página Productos](\img\pag2.jpg)
 
 - **Pago**:  En la página final sólo tendremos la opción de ingresar datos de una tarjeta de crédito, así se realizará el pago del producto seleccionado. 
+
 
 ![Diseño de página Productos](\img\pag3.jpg)
 
@@ -93,5 +93,10 @@ Los comentarios que recibí fueron acerca de los colores a utilizar por lo tanto
 
 
 
+
+=======
+## Interfaz
+
+![Diseño de Página de Inicio][pag1.jpg]
 
 
