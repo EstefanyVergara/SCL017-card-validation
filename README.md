@@ -32,7 +32,7 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 
 - **Pago**:  En la página final sólo tendremos la opción de ingresar datos de una tarjeta de crédito, así se realizará el pago del producto seleccionado. 
 
-##Interfaz
+## Interfaz
 
-![Diseño de página de Inicio][card-validation/blob/master/pag1.jpg]
+![Diseño de Página de Inicio][pag1.jpg]
 
