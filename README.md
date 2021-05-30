@@ -77,6 +77,9 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 
 > ![página 2-3](/img/prototipo2.jpg)
 - *Decidí utilizar la primera opción de visualización de productos.*  
+  
+  </details>
+<br>
 
 ***
 
