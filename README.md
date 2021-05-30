@@ -34,5 +34,5 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 
 ##Interfaz
 
-![Diseño de página de Inicio](card-validation/blob/master/pag1.jpg)
+![Diseño de página de Inicio][card-validation/blob/master/pag1.jpg]
 
