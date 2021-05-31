@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
- 
 /*Estilos en página de inicio.*/
 *{  
     box-sizing: border-box;
@@ -8,7 +7,6 @@
     font-family: "Roboto";
     flex-wrap: wrap;
   }
- 
 li, a{
     font-family: "Roboto";
     font-weight: normal;
@@ -16,7 +14,6 @@ li, a{
     color: rgb(253, 253, 253);
     text-decoration: none;
   }
- 
 header{
   display: flex;
   justify-content: flex-end;
@@ -25,7 +22,6 @@ header{
   margin: 0px;
   background-color:#424B54;
 }
- 
 .logo{
   cursor: pointer;
   margin-right: 40%;
@@ -33,25 +29,25 @@ header{
   height: 100px;
   
 }
- 
+
 .nav_links {
   list-style: none;
 }
- 
+
 .nav_links li {
 display: inline-block;
 padding: 25px;
 margin: 20px;
 }
- 
+
 .nav_links li a{
 transition: all 0.3s ease 0s;
 }
- 
+
 .nav_links li a:hover{
   color: rgb(99, 94, 94);
 }
- 
+
 .biglogo{
   margin: 250px;
   position:absolute;
@@ -60,7 +56,6 @@ transition: all 0.3s ease 0s;
   width: 450px;
   height: 450px;
 }
- 
 .titulo{
   font-family: "Roboto";
   font-size: 20px;
@@ -74,7 +69,6 @@ transition: all 0.3s ease 0s;
   top:380px;
   left: 160px; 
 }
- 
 .Btn-Products{
   position: relative;
   background: #424B54;
@@ -88,25 +82,23 @@ transition: all 0.3s ease 0s;
   text-align: center;
   width: 200px;
   box-shadow: 0px 3px 0px #000000;
- 
   }
   .Btn-Products:hover{
   background: rgb(99, 94, 94);
   }
- 
+
   .Btn-Products:active{
     background: rgb(141, 42, 42);
   }
- 
+
   /*Estilos en página de productos.*/
- 
+
   .fotos{
     display: inline;
     height: 400px;
     width: 400px;
     margin-top: 180px;
     margin-left: 120px;
- 
   }
   .btn1{
     text-align: center;
@@ -121,14 +113,14 @@ transition: all 0.3s ease 0s;
     box-shadow: 0px 3px 0px #000000;
     margin: 10px;
     padding: 10px;
-    left: 230px;
-    
+    top: 123px;
+    right: 1465px;
    }
- 
+
   .btn1:hover{
     background: rgb(99, 94, 94);
   }
- 
+
   .btn2{
     text-align:center;
     display: inline-block;
@@ -139,15 +131,15 @@ transition: all 0.3s ease 0s;
     font-family: "Roboto";
     width: 400px;
     height: 103px;
-    left: 330px;
+    left: 750px;
     margin: 10px;
     padding: 10px;
     box-shadow: 0px 3px 0px #000000;
   }
- 
+
   .btn2:hover{
     background: rgb(99, 94, 94);
- 
+
   }
 .btn3{
     text-align:center;
@@ -159,21 +151,20 @@ transition: all 0.3s ease 0s;
     font-family: "Roboto";
     width: 400px;
     height: 103px;
-    left: 430px;
+    left: 855px;
     margin: 10px;
     padding: 10px;
     box-shadow: 0px 3px 0px #000000;
   }
- 
   .btn3:hover{
     background: rgb(99, 94, 94);
     
   }
 body{
   background:#424B54;
-  background-image: url("../img/fondo.jpg")
+  background-image: url("../img/fondo.jpg");
 }
- 
+
 /* Atributos página de pago*/
 .payment{
   position: absolute;
@@ -204,7 +195,6 @@ body{
   line-height: 35px;
   color: #424B54; 
 }
- 
 .label{
   display: block;
   color: #555555;
@@ -222,7 +212,7 @@ body{
   font-size: 16px;
   color: #424B54;
 }
-#btnPay{
+#btn-pay{
   margin-top: 40px;
   background: #424B54;
   padding: 12px;
@@ -232,3 +222,13 @@ body{
   cursor: pointer;
   width: 330px;
 }
+
+
+
+
+
+
+
+
+
+

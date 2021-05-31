@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 let aux=[];
 function maskify(tarjeta) {
     let card = tarjeta;
@@ -19,6 +20,11 @@ function maskify(tarjeta) {
         let booleano="";
         let card=tarjeta.reverse();
         
+=======
+const validator = 
+    function isValid(){
+        let card=aux.reverse();
+>>>>>>> 8669bba81eaded8f62670bebafcea23de41fcba3
         for (i=0; i<card.length; i++){
           card[i]=parseInt(card[i]);
          }
@@ -30,6 +36,7 @@ function maskify(tarjeta) {
           for (i=0; i<card.length; i++){
             adition=adition+card[i];
           }
+<<<<<<< HEAD
           let referencia=adition%10;
           if(referencia==0){
               booleano=true;
@@ -43,3 +50,35 @@ function maskify(tarjeta) {
       const validator= {aux,maskify,isValid};
       export default validator;
       
+=======
+          let sum=adition;
+          let referencia=sum%10;
+          if(referencia==0){
+              alert("Pago aceptado!!");
+          }else{
+                alert("Tarjeta inválida intente nuevamente");
+                hideNum = [];
+                document.getElementById("textElement").value  = hideNum;
+                aux=[];
+          }
+       }
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  
+>>>>>>> 8669bba81eaded8f62670bebafcea23de41fcba3
