@@ -6,11 +6,12 @@ cardNumber.addEventListener("keyup",(e)=>{
     cardNumber.value=validator.maskify(creditCardNumber);
 });
  
-document.getElementById("btn").addEventListener("click",()=>{
+document.getElementById("btn-pay").addEventListener("click",()=>{
     let creditCardNumber=validator.aux;
     if(validator.isValid(creditCardNumber)==true){
-       alert("Tarjeta valida");
+       alert("Tarjeta valida")   
     } else {
-       alert("Tarjeta inválida reintente"); 
+       alert("Tarjeta inválida reintente") 
     }
 });
+
