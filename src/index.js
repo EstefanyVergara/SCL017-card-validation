@@ -6,7 +6,7 @@ cardNumber.addEventListener("keyup",(e)=>{
     cardNumber.value=validator.maskify(creditCardNumber);
 });
  
-document.getElementById("btn-pay").addEventListener("click",()=>{
+document.getElementById("btnPay").addEventListener("click",()=>{
     let creditCardNumber=validator.aux;
     if(validator.isValid(creditCardNumber)==true){
        alert("Tarjeta valida")   

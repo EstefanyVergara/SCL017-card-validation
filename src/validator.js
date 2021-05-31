@@ -19,15 +19,15 @@ function maskify(tarjeta) {
         let booleano="";
         let card=tarjeta.reverse();
         
-        for (i=0; i<card.length; i++){
+        for (let i=0; i<card.length; i++){
           card[i]=parseInt(card[i]);
          }
-        for (j=1; j<card.length; j+=2){
+        for (let j=1; j<card.length; j+=2){
            card[j]=card[j]*2;
            card[j]=(card[j]-1)%9+1;
          }
           let adition=0;
-          for (i=0; i<card.length; i++){
+          for (let i=0; i<card.length; i++){
             adition=adition+card[i];
           }
           let referencia=adition%10;
