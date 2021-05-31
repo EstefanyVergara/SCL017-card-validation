@@ -9,9 +9,16 @@ cardNumber.addEventListener("keyup",(e)=>{
 document.getElementById("btnPay").addEventListener("click",()=>{
     let creditCardNumber=validator.aux;
     if(validator.isValid(creditCardNumber)==true){
-       alert("Tarjeta valida")   
-    } else {
-       alert("Tarjeta inválida reintente") 
+       alert("Tarjeta valida");   
+    } else{
+       if(confirm("Tarjeta inválida reintente")){
+        window.location.reload();
     }
-});
+    
+}
+}
+)
 
+
+
+     
