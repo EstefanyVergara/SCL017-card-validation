@@ -49,7 +49,7 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 - **Pago**:  En la página final sólo tendremos la opción de ingresar datos de una tarjeta de crédito, así se realizará el pago del producto seleccionado. 
  
  
-![Diseño de página Productos](/img/pag2.jpg)
+![Diseño de página Productos](/img/pag3.jpg)
  
  
  
