@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <header> 
+      <img class="logo" src="./img/logoheader.png" alt="logo">
+      <nav>
+         <ul class="nav_links">
+          <li><a href="index.html">INICIO</a></li>
+          <li><a href="productos.html">PRODUCTOS</a></li>
+          <li><a href="#">CONTACTO</a></li>
+        </ul>
+      </nav>   
+</header>
+ 
+    <meta charset="utf-8">
+    <title>Pago</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+ 
+  <body> 
+ 
+  <div class="wrapper">
+      <div class="payment">   
+ 
+                <h2>Método de pago</h2>
+ 
+             <div class="form"></div>
+                
+                        <div class="card">    
+                        <label class="label">Nombre:</label>
+                        <input type="text" id="nombre"class="input" name="Name" placeholder= " John Doe" required>
+                       
+            </div>
+ 
+            <div class="cardNumber">
+                      <label class="label">Número de tarjeta:</label>
+                      <input mode="text" id="cardNumber" maxlength="16" name="card" 
+                      class="input" placeholder="&#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679; &#9679;&#9679;&#9679;&#9679;"
+                      onkeypress="return (event.charCode >= 48 && event.charCode <= 57)" min="16" required>
+                      
+            </div>         
+ 
+            <div class="exp">
+                     <label class="label">Fecha de exp:</label>
+                     <input type="text" class="input" name="Exp" maxlength="4" placeholder= " 03 / 24"required>
+                     
+            </div>         
+ 
+            <div class="cvc">
+                      <label class="label">CVC:</label>
+                      <input type="text" class="input" name="Cvc" maxlength="3" placeholder= "123"required>
+ 
+            </div>
+ 
+            <button  name="button" id="btnPay" onclick="isValid()">PAGAR</button>
+           
+        
+        
+      
+      </div>       
+ 
+ </div> 
+  </body>
+  <script src="index.js" type="module"></script>
+</html>
