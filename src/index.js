@@ -14,10 +14,10 @@ document.getElementById("btnPay").addEventListener("click",()=>{
        if(confirm("Tarjeta inválida reintente")){
         window.location.reload();
     }
+    }})
+
     
-}
-}
-)
+    
 
 
 
