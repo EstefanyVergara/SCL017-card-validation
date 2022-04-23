@@ -17,21 +17,19 @@
 ## Son Cold Brew Coffee
  
  
-¿Qué es **Cold Brew**?
+¿Qué es **Son Cold Brew**?
  
- Es el proceso de preparación de un café frío en el que en ningún momento entra en juego el aumento de temperatura para hacer la infusión. Este tiene un tiempo de preparación de 20 horas donde el café reposa para luego ser preparado de forma fría.
- 
-##   ¿Entonces qué es **Son ColdBrew**?
- 
-El *Son*  representa ese sazón que nos entrega una taza de café en cualquier momento del día, toda hora es buena para disfrutar este rico sabor de una preparación hecha con cariño y dedicación.
+El *Son* representa ese sazón que nos entrega una taza de café en cualquier momento del día, toda hora es buena para disfrutar este rico sabor de una preparación hecha con cariño y dedicación.
  
 **Son Cold Brew** nace desde una pequeña gran idea de cuarentena, donde gracias a ella más personas tendrán la oportunidad de probar un *Son* de sabores.
+
+El Diseño de Logotipo fue realizado por mi. 
  
 ***
  
 ##   Resumen del proyecto
  
-Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la web mediante el recurso de **3 páginas**. ¿Por qué tres?, quise darle un Inicio, desarrollo y final al requerimiento así el usuario entiende y tiene un mejor recorrido en la web.
+Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la web mediante el recurso de **3 páginas**. ¿Por qué tres?, quise darle un Inicio, desarrollo y final al requerimiento por lo tanto existe un mejor contexto de como debiese ser una visita en una página web.
  
 ### Descripción de Páginas e Interfaz
  
@@ -70,8 +68,8 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
  
 ### Primeros Mockups
 *** 
-<details>
-<summary> Click para ver Mockups </summary>
+
+
  
 > ![página 1](/img/prototipo1.jpg)
  - *Descarté hacer un footer por el tiempo requerido.*  
@@ -81,7 +79,7 @@ Este proyecto fue diseñado para que la Pyme tuviese una mejor visibilidad en la
 > ![página 2-3](/img/prototipo2.jpg)
 - *Decidí utilizar la primera opción de visualización de productos.*  
  
-</details>
+
 <br>
 
 ***
